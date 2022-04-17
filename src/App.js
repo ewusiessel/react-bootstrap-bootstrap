@@ -3,6 +3,7 @@ import NavBar from "./Nav";
 import Carousel from "./PageCarousel";
 import Featured from "./Featured";
 import ProductCard from "./ProductCard";
+import PicParrallax from "./PicParrallax";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Carousel />
       <Featured />
       <ProductCard />
+      <PicParrallax />
     </>
   );
 };
